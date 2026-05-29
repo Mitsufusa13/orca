@@ -9,6 +9,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Added
+- `OrcaEPWFromArchClimate` (Others): Fetch building design climate data from ArcClimate by latitude/longitude and generate an EPW file directly, without manual CSV download. Requires `arcclimate` Python package (`pip install arcclimate`).
+  - 緯度・経度・年を入力するだけで ArcClimate（建築設計用気象データ）からデータを取得し、EPW ファイルを自動生成する新規コンポーネント。CSV の手動ダウンロードが不要。`arcclimate` パッケージが必要（`pip install arcclimate`）。
+
 ---
 
 ## [0.1.0] - 2025-05-28
