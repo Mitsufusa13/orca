@@ -114,7 +114,7 @@ The `samples/` folder contains example Grasshopper files demonstrating typical w
 
 | File | Description |
 |---|---|
-| (coming soon) | — |
+| ArcClimate.gh | — |
 
 ---
 
